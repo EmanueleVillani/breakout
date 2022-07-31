@@ -18,13 +18,13 @@ public class Brick : MonoBehaviour
         switch (PointValue)
         {
             case 1 :
-                block.SetColor("_BaseColor", Color.green);
+                block.SetColor("_BaseColor", Color.white);
                 break;
             case 2:
                 block.SetColor("_BaseColor", Color.yellow);
                 break;
             case 5:
-                block.SetColor("_BaseColor", Color.blue);
+                block.SetColor("_BaseColor", Color.gray);
                 break;
             default:
                 block.SetColor("_BaseColor", Color.red);
